@@ -35,7 +35,7 @@ while True:
             print(f"You got it right! The correct number is {correct_number}")
             print(f"Your total attempts: {attempts}")
 
-            # Reset to avoid bugS
+            # Reset to avoid bugs
             attempts = 0
             print("\nLet's play again!")
     except ValueError:
